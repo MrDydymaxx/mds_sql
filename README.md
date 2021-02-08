@@ -23,3 +23,7 @@ On aimerait afficher le titre de tous les films en sha1, dans la colonne "Titres
 ##Requete 6
 
 Faire une requete qui affiche le nombre de films qu'il y a dans la table film (nombre_films) dont la première lettre est un B (case insensitive).
+
+##Requete 7
+
+Faire une requete qui selectionne le titre (titre) des films contenant dans leur titre la chaine de caracteres 'the' independament de la casse (case non sensitive, la requete doit matcher The thE etc..). Il faudra aussi que le genre des films soit egal à 2.
