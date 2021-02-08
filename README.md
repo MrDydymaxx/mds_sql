@@ -15,3 +15,7 @@ Faire une requete qui affiche le titre des films en minsucule de la table film d
 ##Requete 4
 
 Faire une requete qui affiche le titre en majuscule de tous les films dans la colonne titre et les date de fin d'affiche dans la colone date_fin_affiche, ordonnee par date de fin d'affiche decroissante.
+
+##Requete 5
+
+On aimerait afficher le titre de tous les films en sha1, dans la colonne "Titres_SHA1" et en MD5 dans la colonne "Titres_MD5".

@@ -6,7 +6,7 @@
 
 #4 SELECT UPPER(titre) AS titre, date_fin_affiche FROM `film` ORDER BY date_fin_affiche DESC
 
-#5
+#5 SELECT SHA1(titre) AS "Titres_SHA1", MD5(titre) AS "Titres_MD5" FROM film
 
 #6
 
