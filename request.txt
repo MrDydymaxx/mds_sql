@@ -2,7 +2,7 @@
 
 #2 SELECT titre AS titre_film, duree_min AS duree_film, resum AS resume_film FROM film
 
-#3 
+#3 SELECT LOWER(titre) AS 'titres_min' FROM film WHERE id BETWEEN '43' AND '83'
 
 #4
 
