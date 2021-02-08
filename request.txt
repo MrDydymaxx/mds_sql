@@ -14,7 +14,7 @@
 
 #8 SELECT film.titre AS titre,film.date_debut_affiche AS date_debut,film.distrib_id AS distrib_id, distrib.nom AS nom_distrib FROM film,distrib WHERE LOWER(titre) LIKE '%day%' AND distrib_id IS NOT NULL ORDER BY date_fin_affiche DESC
 
-#9 SELECT genre.nom as 'nom genre', COUNT(film.titre) as 'nombre films', film.duree_min as 'minutes totales' FROM film, genre WHERE film.genre_id = genre.id AND film.genre_id BETWEEN 3 AND 5 GROUP BY genre.nom
+#9 SELECT genre.nom as 'nom genre', COUNT(film.titre) as 'nombre films', SUM(film.duree_min) as 'minutes totales' FROM film, genre WHERE film.genre_id = genre.id AND film.genre_id BETWEEN 3 AND 5 GROUP BY genre.nom
 
 #10 SELECT MIN(film.id) AS 'min id film' FROM film, genre WHERE genre.nom = 'comedy' AND film.genre_id = genre.id
 
