@@ -12,7 +12,7 @@
 
 #7 SELECT titre FROM film WHERE LOWER(titre) LIKE '%the%' AND genre_id = 2
 
-#8
+#8 SELECT film.titre AS titre,film.date_debut_affiche AS date_debut,film.distrib_id AS distrib_id, distrib.nom AS nom_distrib FROM film,distrib WHERE LOWER(titre) LIKE '%day%' AND distrib_id IS NOT NULL ORDER BY date_fin_affiche DESC
 
 #9
 
