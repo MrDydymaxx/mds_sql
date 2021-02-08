@@ -11,3 +11,7 @@ Faire une requete qui affiche le titre (titre_film), la durée du film (duree_fi
 ##Requete 3
 
 Faire une requete qui affiche le titre des films en minsucule de la table film du cinema qui ont un id compris (exclu) entre 42, et 84. La colonne titre en minuscule devra s'appeler "titres_min".
+
+##Requete 4
+
+Faire une requete qui affiche le titre en majuscule de tous les films dans la colonne titre et les date de fin d'affiche dans la colone date_fin_affiche, ordonnee par date de fin d'affiche decroissante.

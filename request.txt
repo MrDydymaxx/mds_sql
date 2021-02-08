@@ -1,10 +1,10 @@
-#1 SELECT titre AS 'Titres films' FROM film WHERE genre_id IN (1,2,3) AND LOWER(titre) LIKE '%E'
+#1 SELECT titre AS Titres films FROM film WHERE genre_id IN (1,2,3) AND LOWER(titre) LIKE '%E'
 
 #2 SELECT titre AS titre_film, duree_min AS duree_film, resum AS resume_film FROM film
 
 #3 SELECT LOWER(titre) AS 'titres_min' FROM film WHERE id BETWEEN '43' AND '83'
 
-#4
+#4 SELECT UPPER(titre) AS titre, date_fin_affiche FROM `film` ORDER BY date_fin_affiche DESC
 
 #5
 
