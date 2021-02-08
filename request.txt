@@ -1,4 +1,4 @@
-#1
+#1 SELECT titre AS 'Titres films' FROM film WHERE genre_id IN (1,2,3) AND LOWER(titre) LIKE '%E'
 
 #2
 
