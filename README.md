@@ -31,3 +31,7 @@ Faire une requete qui selectionne le titre (titre) des films contenant dans leur
 ##Requete 8
 
 Afficher le titre (titre), date_debut_affiche (date_debut), distrib_id (distrib_id), le nom du distributeur (nom_distrib) de tous les films dont le nom contient 'day' independement de la casse (cad que le titre peu contenir "DaY", "dAy" et tous ses dérivés). Si le film n'a pas de distributeur, il ne faut pas l'afficher. Il faut enfin ordener les resultats par date_debut_affiche descendant.
+
+##Requete 9
+
+Faire une requete qui compte tous les films associes qui ont des id de genre compris entre 3 et 5 (inclu). La requete affichera le nombre de films qu'il y a dans ce genre et le nom du genre. Il y aura donc les colones "nom genre", "nombre films" et "minutes totales".
