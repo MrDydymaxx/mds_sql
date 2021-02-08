@@ -20,7 +20,7 @@
 
 #11 SELECT titre, date_debut_affiche, date_fin_affiche, HOUR(TIMEDIFF(date_fin_affiche, date_debut_affiche)) AS temps_affiche FROM `film` WHERE  HOUR(TIMEDIFF(date_fin_affiche, date_debut_affiche)) <> 'null'
 
-#12
+#12 SELECT COUNT(DISTINCT abonnement.id) AS nombre_abonnement, CEIL(AVG(abonnement.prix)) AS moyenne_abonnement, COUNT(DISTINCT membre.id) AS nombre_abonnes FROM abonnement, membre WHERE abonnement.id <> 0 AND membre.abo_id <> 0
 
 #13
 

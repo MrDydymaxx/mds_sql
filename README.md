@@ -43,3 +43,7 @@ Faire une requete qui affiche le plus petit id_film dans une colonne "min id fil
 ##Requete 11
 
 On veut afficher le titre (titre), les dates de debut (date_debut_affiche) et fin d'affiche (date_fin_affiche), et le nombre d'heures dont les films ont été à l'affiche (temps_affiche), on ne veut pas afficher les films dont temps_affiche n'a pas pu etre calculé.
+
+##Requete 12
+
+Compter le nombre d'abonnement propose par le cinema, ainsi que la moyenne du cout des abonnements, arrondi à l'unite (superieur). Il faut aussi afficher combien de membres sont abonnés au cinéma. Il faudra afficher le nombre d'abonnement dans une colonne "nombre_abonnement", la moyenne dans une colonne "moyenne_abonnement" et le nombre membre avec un abonnement dans la colone "nombre_abonnees". Attention l'abonnement avec l'id=0 n'est pas un abonnement !
