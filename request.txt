@@ -16,7 +16,7 @@
 
 #9 SELECT genre.nom as 'nom genre', COUNT(film.titre) as 'nombre films', film.duree_min as 'minutes totales' FROM film, genre WHERE film.genre_id = genre.id AND film.genre_id BETWEEN 3 AND 5 GROUP BY genre.nom
 
-#10
+#10 SELECT MIN(film.id) AS 'min id film' FROM film, genre WHERE genre.nom = 'comedy' AND film.genre_id = genre.id
 
 #11
 

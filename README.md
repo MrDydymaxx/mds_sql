@@ -35,3 +35,7 @@ Afficher le titre (titre), date_debut_affiche (date_debut), distrib_id (distrib_
 ##Requete 9
 
 Faire une requete qui compte tous les films associes qui ont des id de genre compris entre 3 et 5 (inclu). La requete affichera le nombre de films qu'il y a dans ce genre et le nom du genre. Il y aura donc les colones "nom genre", "nombre films" et "minutes totales".
+
+##Requete 10
+
+Faire une requete qui affiche le plus petit id_film dans une colonne "min id film" pour le genre "comedy".
