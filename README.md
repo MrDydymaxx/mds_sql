@@ -39,3 +39,7 @@ Faire une requete qui compte tous les films associes qui ont des id de genre com
 ##Requete 10
 
 Faire une requete qui affiche le plus petit id_film dans une colonne "min id film" pour le genre "comedy".
+
+##Requete 11
+
+On veut afficher le titre (titre), les dates de debut (date_debut_affiche) et fin d'affiche (date_fin_affiche), et le nombre d'heures dont les films ont été à l'affiche (temps_affiche), on ne veut pas afficher les films dont temps_affiche n'a pas pu etre calculé.

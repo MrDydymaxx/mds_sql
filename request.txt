@@ -18,7 +18,7 @@
 
 #10 SELECT MIN(film.id) AS 'min id film' FROM film, genre WHERE genre.nom = 'comedy' AND film.genre_id = genre.id
 
-#11
+#11 SELECT titre, date_debut_affiche, date_fin_affiche, HOUR(TIMEDIFF(date_fin_affiche, date_debut_affiche)) AS temps_affiche FROM `film` WHERE  HOUR(TIMEDIFF(date_fin_affiche, date_debut_affiche)) <> 'null'
 
 #12
 
