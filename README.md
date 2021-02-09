@@ -67,3 +67,9 @@ Faire une requete qui compte le nombre de places dans le cinema au 1er étage (n
 ##Requete 17
 
 Faire une requete qui selectionne tous les membres qui sont alles voir les films numeros 453 ou numeros 642. Elle devra afficher l'id du membre (id_membre) et la date (histo_date) et sera ordonne par id_membre croissant.
+
+##Requete 18
+
+Qu'elle est la requete la plus optimisée : 
+1: Select id, titre, resum FROM film WHERE id = 42;
+2: Select id, titre, resum FROM film HAVING id = 42;
