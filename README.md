@@ -73,3 +73,7 @@ Faire une requete qui selectionne tous les membres qui sont alles voir les films
 Qu'elle est la requete la plus optimisée : 
 1: Select id, titre, resum FROM film WHERE id = 42;
 2: Select id, titre, resum FROM film HAVING id = 42;
+
+##Requete 19
+
+Faire une requete qui permet d'afficher tous les noms des distributeurs (nom_distrib) en majuscules, le nombre de film par distributeur (nombre_films) ainsi que la durée totale de tous les films par distributeur (duree_min). Le resultat devra etre trié par le nombre de film décroissant et par la durée totale des films décroissant.

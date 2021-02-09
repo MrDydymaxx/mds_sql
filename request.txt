@@ -34,6 +34,6 @@
 
 #18 SELECT id, titre, resum FROM film WHERE id = 42
 
-#19
+#19 SELECT UPPER(distrib.nom) AS nom_distrib, COUNT(film.distrib_id) AS nombre_films, SUM(film.duree_min) AS duree_min FROM `distrib`,film WHERE film.distrib_id = distrib.id GROUP BY distrib.nom ORDER BY COUNT(film.distrib_id) DESC, SUM(film.duree_min) DESC
 
 #20
