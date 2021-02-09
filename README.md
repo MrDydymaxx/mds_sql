@@ -60,3 +60,6 @@ Selectionner le nom des salles (nom_salle) dont le nombre de sieges est compris 
 
 Affichez pour chaque genre (NULL n'est pas un genre), le nom du genre (nom_genre) et la duree du film (duree_min) la plus longue appartenant à ce genre.
 
+##Requete 16
+
+Faire une requete qui compte le nombre de places dans le cinema au 1er étage (nbr place).
