@@ -63,3 +63,7 @@ Affichez pour chaque genre (NULL n'est pas un genre), le nom du genre (nom_genre
 ##Requete 16
 
 Faire une requete qui compte le nombre de places dans le cinema au 1er étage (nbr place).
+
+##Requete 17
+
+Faire une requete qui selectionne tous les membres qui sont alles voir les films numeros 453 ou numeros 642. Elle devra afficher l'id du membre (id_membre) et la date (histo_date) et sera ordonne par id_membre croissant.
