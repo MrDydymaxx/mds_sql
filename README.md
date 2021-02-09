@@ -77,3 +77,7 @@ Qu'elle est la requete la plus optimisée :
 ## Requete 19
 
 Faire une requete qui permet d'afficher tous les noms des distributeurs (nom_distrib) en majuscules, le nombre de film par distributeur (nombre_films) ainsi que la durée totale de tous les films par distributeur (duree_min). Le resultat devra etre trié par le nombre de film décroissant et par la durée totale des films décroissant.
+
+## Requete 20
+
+Faire une requete qui permet d'afficher le nom (nom), le prenom (prenom), le nombre de films que chaque membre a vu (nombre_film), la date du dernier film visionné (date_dernier_film) ainsi que le nom de ce dernier (nom_dernier_film). Les noms et prenoms doivent commencer par une majuscule ("arnaud" deviendra "Arnaud" par exemple). Vous devez classer les resulstats par le nombre de films vus decroissant. Les membres qui n'ont pas vu de film ne doivent pas apparaitre.
