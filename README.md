@@ -47,3 +47,7 @@ On veut afficher le titre (titre), les dates de debut (date_debut_affiche) et fi
 ##Requete 12
 
 Compter le nombre d'abonnement propose par le cinema, ainsi que la moyenne du cout des abonnements, arrondi à l'unite (superieur). Il faut aussi afficher combien de membres sont abonnés au cinéma. Il faudra afficher le nombre d'abonnement dans une colonne "nombre_abonnement", la moyenne dans une colonne "moyenne_abonnement" et le nombre membre avec un abonnement dans la colone "nombre_abonnees". Attention l'abonnement avec l'id=0 n'est pas un abonnement !
+
+##Requete 13
+
+Afficher le nom (nom) et les pourcentages de reduction (pourcentage_reduc) des reductions qui ont un pourcentage de reduction positif, et qui ne sont pas egale à 25. Vous les ordonnerez par pourcentage_reduc decroissant (pur beurre).
