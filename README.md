@@ -51,3 +51,12 @@ Compter le nombre d'abonnement propose par le cinema, ainsi que la moyenne du co
 ##Requete 13
 
 Afficher le nom (nom) et les pourcentages de reduction (pourcentage_reduc) des reductions qui ont un pourcentage de reduction positif, et qui ne sont pas egale à 25. Vous les ordonnerez par pourcentage_reduc decroissant (pur beurre).
+
+##Requete 14
+
+Selectionner le nom des salles (nom_salle) dont le nombre de sieges est compris entre 100 et 300 (inclus) et qui est au 2eme étage.
+
+##Requete 15
+
+Affichez pour chaque genre (NULL n'est pas un genre), le nom du genre (nom_genre) et la duree du film (duree_min) la plus longue appartenant à ce genre.
+

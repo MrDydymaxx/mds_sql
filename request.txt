@@ -24,9 +24,9 @@
 
 #13 SELECT nom, pourcentage_reduc FROM reduction WHERE pourcentage_reduc > 0 AND pourcentage_reduc <> 25 ORDER BY pourcentage_reduc DESC
 
-#14
+#14 SELECT nom_salle FROM salle WHERE nbr_siege BETWEEN 100 AND 300 AND etage_salle = 2
 
-#15
+#15 SELECT genre.nom AS nom_genre, MAX(film.duree_min) AS duree_min FROM film JOIN genre ON genre.id = film.genre_id WHERE film.genre_id IS NOT NULL GROUP BY genre.nom
 
 #16
 
